@@ -30,7 +30,7 @@ html {
     color: #57727C;
     font-size: 12px;
     text-align: center;
-    max-width: calc(100% - 30px);
+   width: 150px;
 }
 
 .card__price {
@@ -44,10 +44,12 @@ html {
 }
 
 .cardGroup {
-    display: flex;  
-    border: 1px solid #CAD0D2;
-    border-radius: 4px;
-    overflow: hidden;
+  margin: 0 auto;
+  max-width: 710px;
+  display: flex;
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  overflow: hidden;
   }
   
     .cardGroup__card {
@@ -59,6 +61,7 @@ html {
     }
   
     .cardGroup__card {
+      width: 710px;
       border-left: 1px solid #D7DBDD;
     }
   
@@ -73,12 +76,17 @@ html {
 @media (min-width:321px) and (max-width:710px) {
 
      .cardGroup {
-     display: flex; 
+     display: flex;
+     width: 320px; 
     
   }
     .cardGroup__card {
     flex-basis: 200px;
     align-content: center;
+}
+.card__descriptionText {
+  
+      width: 90px;
 }
 
 }
@@ -94,5 +102,10 @@ html {
     flex-basis: 200px;
     align-content: center;
 }
+.card__descriptionText {
+  
+      width: 90px;
+}
+
 
 }
